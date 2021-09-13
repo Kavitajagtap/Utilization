@@ -14,12 +14,12 @@
 Enter choice(1/2/3/4/5/6): 1
 Enter first number: 89
 Enter second number: 45
-89.0 + 45.0 = 134.0    
+Addition ->  89.0 + 45.0 = 134.0    
 
 Enter choice(1/2/3/4/5/6): 3
 Enter first number: 3
 Enter second number: 2
-3.0 * 2.0 = 6.0
+Multiplication ->  3.0 * 2.0 = 6.0
 
 Enter choice(1/2/3/4/5/6): 6
 Enter a number : 8
@@ -63,16 +63,16 @@ while True:
         num2 = float(input("Enter second number: "))
 
     if choice == '1':
-       print(num1, "+", num2, "=", add(num1, num2))
+       print("Addition -> ", num1, "+", num2, "=", add(num1, num2))
     elif choice == '2':
-       print(num1, "-", num2, "=", subtract(num1, num2))
+       print("Substraction -> ", num1, "-", num2, "=", subtract(num1, num2))
     elif choice == '3':
-       print(num1, "*", num2, "=", multiply(num1, num2))
+       print("Multiplication -> ",num1, "*", num2, "=", multiply(num1, num2))
 
     elif choice == '4':
-           print(num1, "/", num2, "=", divide(num1, num2))
+           print("Dvision -> ",num1, "/", num2, "=", divide(num1, num2))
     elif choice == '5':
-           print(num1, "%", num2, "=", modulus(num1, num2))
+           print("modulus -> ",num1, "%", num2, "=", modulus(num1, num2))
     elif choice == '6':
           n = int(input('Enter a number : '))
           x = int(input('Enter power--> (2/3/4...) : '))
