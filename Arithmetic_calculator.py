@@ -1,5 +1,5 @@
 
-# This calculator performs addition, Subtraction, Multiplication, Division, Modulus type of operations on integer as well as real values.
+# This calculator performs addition, Subtraction, Multiplication, Division, Modulus type of operations on integer as well as on real values.
 
 """
 -------------------- Select operation -----------------------
@@ -27,6 +27,7 @@ Enter power--> (2/3/4...) : 3
 8 ^ 3 is: 512
 
 Enter choice(1/2/3/4/5/6): 
+
 """
 
 def add(x, y):
